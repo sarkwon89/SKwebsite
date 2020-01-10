@@ -14,11 +14,6 @@
     border: solid blue;
 }
 
-.heading1 {
-    margin-top: 30%;
-
-}
-
 .row{
     border:solid red;
 }
@@ -26,7 +21,16 @@
 .welcome {
     display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;
+    background-image: url("/assets/images/Prestitial.jpg");
+    
+}
+
+.welcometxt{
+    font-size: 5rem;
+    font-family: 'Bungee Inline', cursive;
+    color: black;
 }
 
 img {
