@@ -9,7 +9,7 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
-    <link href="https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Kanit&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -20,23 +20,30 @@
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="left hide-on-med-and-down">
                 <li><a href="#">Home</a></li>
-                <li><a href="#">About Me</a></li>
-                <li><a href="#">My Work</a></li>
+                <li><a href="#aboutmesection">About Me</a></li>
+                <li><a href="#productsection">My Work</a></li>
             </ul>
         </div>
     </nav>
+
 
     <div class="row welcome">
         <div class="col s12">
             <h3 class="welcometxt">SARAH KWON'S WEBSITE</h3>
         </div>
-        <h6 id="scroll">Scroll</h6>
+        <a href="#aboutmesection">
+            <h6 id="scroll">Scroll</h6>
+        </a>
     </div>
+
     <div class="container">
-        <div class="row">
+
+        <div id="aboutmesection" class="row aboutme">
             <div class="col s12 aboutMeImage">
                 <img class="responsive-img" src="assets/images/SamandSola_SarahCole3.jpg" alt="image">
-                <div id="banner-aboutme">ABOUT ME</div>
+                <div id="banner-aboutme">
+                    <h3>ABOUT ME</h3>
+                </div>
             </div>
             <div class="col s12">
                 <h4>EXPERIENCE</h4>
@@ -60,9 +67,10 @@
                 <p>My Resume</p>
             </div>
         </div>
-        <div class="row">
+
+        <div id="productsection" class="row products">
             <div class="col s12">
-                <h2>PRODUCTS</h2>
+                <h3>PRODUCTS</h3>
                 <p>Here are some of the non-confidential products I have created. </p>
             </div>
             <div class="col s12">
@@ -92,9 +100,10 @@
                 <img src="" alt="banneradsimage">
             </div>
         </div>
-        <div class="row">
+
+        <div class="row projects">
             <div class="col s12">
-                <h2>PROJECTS</h2>
+                <h3>PROJECTS</h3>
                 <p>Here are all of the projects and assignments I completed at my time at UW coding bootcamp. Each
                     assignment displays the coding skills I have gained.</p>
             </div>
@@ -138,9 +147,11 @@
                 <img class="responsive-img" src="assets/images/first project.jpg" alt="image">
             </div>
         </div>
-        <div class="row">
+
+        <div class="row commercial">
             <div class="col s12">
-                <h2>COMMERCIAL</h2>
+                <h3>COMMERCIAL</h3>
+
                 <p>Outside of my career, I have had the privilege to work with The Distillery and Dell EMC the past 3
                     years by being a talent for their commercials. Through this experience I have learned what it takes
                     to create video content in a fast pace environmnet.</p>
