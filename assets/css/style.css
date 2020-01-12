@@ -115,6 +115,7 @@ img {
 
 .aboutMeContent{
     display: flex;
+    border: solid rebeccapurple;
 }
 
 .aboutMeImage {
@@ -122,8 +123,7 @@ img {
     margin-right: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 50%;
-    height: 50%;
+    border: solid salmon;
 }
 
 #banner-aboutme {
