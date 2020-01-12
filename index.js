@@ -8,13 +8,6 @@ var instance = M.Carousel.init({
     indicators: true
 });
 
-// Or with jQuery
-
-$('.carousel.carousel-slider').carousel({
-    fullWidth: true,
-    indicators: true
-});
-
 
 //animate.css functions
 $(document).ready(function () {
@@ -44,9 +37,4 @@ function animate(element, animation) {
             $(element).removeClass(`animated ` + animation);
         },
         1000);
-}
-
-document.addEventListener('DOMContentLoaded', function () {
-    var elems = document.querySelectorAll('.carousel');
-    var instances = M.Carousel.init(elems, options);
-});
+};
