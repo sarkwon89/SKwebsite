@@ -31,7 +31,7 @@ nav {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background:url(/background.jpg) no-repeat center fixed; 
+    background:url(/assets/images/background.jpg) no-repeat center fixed; 
     border: solid red;
     flex-direction: column;
     position: relative;
