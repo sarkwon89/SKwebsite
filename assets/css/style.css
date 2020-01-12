@@ -42,7 +42,7 @@ nav {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: url(images/background.jpg) no-repeat center fixed;
+    background: url(../images/background.jpg) no-repeat center fixed;
     /* border: solid red; */
     border: solid #332D2D;
     flex-direction: column;
