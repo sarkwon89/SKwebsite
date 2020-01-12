@@ -14,7 +14,6 @@ nav {
     color: rgb(248, 245, 221) !important;
     /* how to make the navbar sticky */
     position: fixed;
-    z-index: 2;
 }
 
 .sidenav {
