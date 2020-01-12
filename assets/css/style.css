@@ -120,10 +120,11 @@ img {
 
 .aboutMeImage {
     /* position: relative; */
-    width: 50%;
     margin-right: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
+    width: 50%;
+    height: 50%;
 }
 
 #banner-aboutme {
