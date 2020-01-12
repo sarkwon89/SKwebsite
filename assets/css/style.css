@@ -42,12 +42,12 @@ nav {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: url(../images/background.jpg) no-repeat center fixed;
+    background: url(images/background.jpg) no-repeat center fixed;
     /* border: solid red; */
     border: solid #332D2D;
     flex-direction: column;
     position: relative;
-    height: 100vh;
+    height: 93vh;
     margin: 0%;
 }
 
@@ -124,6 +124,8 @@ img {
     margin-top: 10px;
     margin-bottom: 10px;
     border: solid salmon;
+    width: 50%;
+    height: 50%;
 }
 
 #banner-aboutme {
