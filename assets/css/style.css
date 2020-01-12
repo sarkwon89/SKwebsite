@@ -14,6 +14,7 @@ nav {
     color: rgb(248, 245, 221) !important;
     /* how to make the navbar sticky */
     position: fixed;
+    z-index: 2;
 
 }
 
@@ -114,9 +115,6 @@ img {
         1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 
-#aboutmeheader{
-    margin-top:20%;
-}
 .aboutMeContent{
     display: flex;
 }
@@ -139,6 +137,7 @@ img {
 }
 
 h2 {
+    margin-top:20%;
     color: #332D2D;
     text-shadow:
     1px 1px 1px #332D2D,
@@ -160,4 +159,18 @@ h2 {
 p{
 margin-top: 10px;
 margin-bottom: 10px;
+}
+
+.clp{
+    border: solid color #332D2D ;
+    padding-bottom:100%;
+    margin: 10px;
+}
+
+.carousel-item.active {
+    width: 300px;
+}
+
+.carousel{
+    margin-bottom: 10px;
 }
