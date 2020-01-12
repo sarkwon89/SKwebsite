@@ -1,4 +1,4 @@
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -11,19 +11,29 @@ body {
 
 nav {
     background-color: #332D2D !important;
+    color: rgb(248, 245, 221) !important;
+
+}
+
+.sidenav {
+    background-color:  rgb(248, 245, 221) !important;
+    height: 25vh;
 }
 
 .container {
-    border: solid yellow;
+    /* border: solid yellow; */
+    width: 100%;
+    margin-top: 5px;
 }
 
 .col {
     border: solid #332D2D;
-    margin-top: 5px;
+    margin: 5px;
 }
 
 .row {
-    border: solid red;
+    /* border: solid red; */
+    margin: 0%;
 }
 
 .welcome {
@@ -31,14 +41,17 @@ nav {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background:url(../images/background.jpg) no-repeat center fixed; 
-    border: solid red;
+    background: url(../images/background.jpg) no-repeat center fixed;
+    /* border: solid red; */
+    border: solid #332D2D;
     flex-direction: column;
     position: relative;
-    height: 90vh;
+    height: 93vh;
+    margin: 0%;
 }
 
 .welcometxt {
+    animation-duration: 2s;
     font-size: 5rem;
     color: rgb(248, 245, 221);
     font-family: 'Josefin Sans', sans-serif;
@@ -60,17 +73,24 @@ nav {
         1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 
+.welcomebox{
+    border: none;
+
+}
+
 img {
     width: 1915px;
     height: 940px;
 }
 
-
-#scroll {
+#enter {
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
     position: absolute;
     transform: translate(-50%);
     bottom: 0%;
-    left: 50%;
+    left: 40%;
     font-size: 2rem;
     color: rgb(248, 245, 221);
     font-family: 'Josefin Sans', sans-serif;
@@ -92,8 +112,16 @@ img {
         1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 
+.aboutMeContent{
+    display: flex;
+}
+
 .aboutMeImage {
-    position: relative;
+    /* position: relative; */
+    width: 50%;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 #banner-aboutme {
@@ -105,6 +133,27 @@ img {
     transform: translate(-50%, -50%);
 }
 
-h3{
-    color: rgb(248, 245, 221);
+h2 {
+    color: #332D2D;
+    text-shadow:
+    1px 1px 1px #332D2D,
+    1px 2px 1px #332D2D,
+    /* 1px 3px 1px #332D2D,
+    1px 4px 1px #332D2D,
+    1px 5px 1px #332D2D,
+    1px 6px 1px #332D2D,
+    1px 7px 1px #332D2D,
+    1px 8px 1px #332D2D,
+    1px 9px 1px #332D2D,
+    1px 10px 1px #332D2D, */
+    1px 18px 6px rgba(16, 16, 16, 0.4),
+    1px 22px 10px rgba(16, 16, 16, 0.2),
+    1px 25px 35px rgba(16, 16, 16, 0.2),
+    1px 30px 60px rgba(16, 16, 16, 0.4);
+}
+
+p{
+font-size: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
 }
