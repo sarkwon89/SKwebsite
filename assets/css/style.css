@@ -12,6 +12,8 @@ body {
 nav {
     background-color: #332D2D !important;
     color: rgb(248, 245, 221) !important;
+    /* how to make the navbar sticky */
+    position: fixed;
 
 }
 
@@ -46,7 +48,7 @@ nav {
     border: solid #332D2D;
     flex-direction: column;
     position: relative;
-    height: 93vh;
+    height: 100vh;
     margin: 0%;
 }
 
@@ -86,7 +88,7 @@ img {
 #enter {
     animation-duration: 2s;
     animation-delay: 2s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 10;
     position: absolute;
     transform: translate(-50%);
     bottom: 0%;
@@ -112,6 +114,9 @@ img {
         1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 
+#aboutmeheader{
+    margin-top:20%;
+}
 .aboutMeContent{
     display: flex;
 }

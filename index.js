@@ -5,12 +5,22 @@ $(document).ready(function () {
 
 
 //animate.css functions
+$(document).ready(function(){
+    //same behaviour with: $(window).load(function(){
+    
+        window.setTimeout(function(){
+    
+            $("#givebutton").addClass('animated bounceInUp');
+    
+        }, 1000);
+    
+    });
 
 
 $(function(){
     $('#enter').click(function(){
         animate('#aboutmeheader', 'fadeInLeft')
-
+        animate('.aboutMeContent', 'fadeInRight')
     })
     return false;
 })
