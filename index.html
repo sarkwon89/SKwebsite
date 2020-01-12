@@ -17,15 +17,20 @@
 <body>
     <nav>
         <div class="nav-wrapper">
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="left hide-on-med-and-down">
-                <li><a href="#">Home</a></li>
-                <li><a href="#aboutmesection">About Me</a></li>
-                <li><a href="#productsection">My Work</a></li>
-            </ul>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <!-- <li><a href="#">Home</a></li> -->
+            <li><a href="#aboutmesection">About Me</a></li>
+            <li><a href="#productsection">My Work</a></li>
+          </ul>
         </div>
-    </nav>
-
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="#">Home</a></li>
+        <li><a href="#aboutmesection">About Me</a></li>
+        <li><a href="#productsection">My Work</a></li>
+      </ul>
 
     <div class="row welcome">
         <div class="col s12">
@@ -49,10 +54,19 @@
                 <h4>EXPERIENCE</h4>
                 <p>Amazon<br>
                     4 yrs, 5 mos</p>
+
+                <div class="video-container">
+                    <iframe class="responsive-video" width="560" height="315"
+                        src="https://www.youtube.com/embed/itBUJNP9XWA" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+
                 <p>Zillow<br>
                     1 yr, 4 mos</p>
                 <p>Talking Rain<br>
                     11 mos</p>
+
                 <h4>EDUCATION</h4>
                 <p>University of Washington
                     <br> Coding Bootcamp
@@ -175,8 +189,9 @@
         </div>
     </div>
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
 </body>
 
 </html>
