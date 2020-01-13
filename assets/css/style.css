@@ -48,7 +48,7 @@ nav {
     border: solid #332D2D;
     flex-direction: column;
     position: relative;
-    height: 90vh;
+    height: 88vh;
     margin: 0%;
 }
 
@@ -77,7 +77,6 @@ nav {
 
 .welcomebox {
     border: none;
-
 }
 
 img {
