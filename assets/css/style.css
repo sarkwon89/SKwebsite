@@ -42,7 +42,7 @@ nav {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: url(../images/background.jpg) no-repeat center fixed;
+    background: url(../images/background.jpg) center;
     -webkit-background-size: cover;
     background-size: cover;
     border: solid #332D2D;
