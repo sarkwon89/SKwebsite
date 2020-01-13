@@ -76,7 +76,7 @@ nav {
 }
 
 .welcomebox {
-    border: none;
+    border: none !important;
 }
 
 img {
@@ -146,4 +146,8 @@ p {
     border: solid color #332D2D;
     padding-bottom: 100%;
     margin: 10px;
+}
+
+.video-container{
+    z-index: -10;
 }
