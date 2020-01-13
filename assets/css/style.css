@@ -90,7 +90,7 @@ img {
     animation-iteration-count: 10;
     position: absolute;
     transform: translate(-50%);
-    bottom: 10%;
+    bottom: 10% !important;
     left: 50%;
     font-size: 2rem;
     color: rgb(248, 245, 221);
