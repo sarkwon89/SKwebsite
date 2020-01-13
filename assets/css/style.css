@@ -119,8 +119,7 @@ img {
 }
 
 .imageContainer {
-    height: 50%;
-    width: 50%;
+    border: solid red;
 }
 
 .aboutMeImage {
@@ -128,8 +127,7 @@ img {
     margin-right: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
-    height: 100%;
-    width: 100%;
+    border: solid salmon;
 }
 
 h2 {
