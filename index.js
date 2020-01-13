@@ -20,10 +20,10 @@ var instance = M.Carousel.init({
 // })
 
 
-function animate(element, animation) {
-    $(element).addClass('animated ' + animation);
-    var wait = setTimeout(function () {
-            $(element).removeClass(`animated ` + animation);
-        },
-        1000);
-};
+// function animate(element, animation) {
+//     $(element).addClass('animated ' + animation);
+//     var wait = setTimeout(function () {
+//             $(element).removeClass(`animated ` + animation);
+//         },
+//         1000);
+// };
