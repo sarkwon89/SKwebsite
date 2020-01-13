@@ -118,11 +118,18 @@ img {
     border: solid rebeccapurple;
 }
 
+.imageContainer {
+    height: 50%;
+    width: 50%;
+}
+
 .aboutMeImage {
     /* position: relative; */
     margin-right: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
+    height: 100%;
+    width: 100%;
 }
 
 h2 {
