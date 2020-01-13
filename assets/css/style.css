@@ -112,7 +112,15 @@ img {
 }
 
 .aboutmecontainer{
-    display: flex
+    display: flex;
+}
+
+.aboutmeheader{
+    animation-duration: 2s;
+}
+
+.aboutmeheader2{
+    animation-duration: 2s;
 }
 
 h2 {
