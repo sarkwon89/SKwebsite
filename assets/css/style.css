@@ -44,6 +44,7 @@ nav {
     text-align: center;
     background: url(../images/background.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
+    background-size: cover;
     border: solid #332D2D;
     flex-direction: column;
     position: relative;
