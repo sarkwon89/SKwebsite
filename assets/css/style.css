@@ -27,7 +27,7 @@ nav {
     margin-top: 5px;
 }
 
-.col {
+.col.s12 {
     border: solid #332D2D;
     margin: 5px;
 }
@@ -113,21 +113,8 @@ img {
         1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 
-.aboutMeContent {
-    display: flex;
-    border: solid rebeccapurple;
-}
-
-.imageContainer {
-    border: solid red;
-}
-
-.aboutMeImage {
-    /* position: relative; */
-    margin-right: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: solid salmon;
+.aboutmecontainer{
+    display: flex
 }
 
 h2 {
