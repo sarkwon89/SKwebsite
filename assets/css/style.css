@@ -128,15 +128,6 @@ img {
     height: 50%;
 }
 
-#banner-aboutme {
-    color: rgb(248, 245, 221);
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 h2 {
     margin-top: 20%;
     color: #332D2D;
