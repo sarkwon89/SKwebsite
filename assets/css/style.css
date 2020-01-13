@@ -48,7 +48,7 @@ nav {
     border: solid #332D2D;
     flex-direction: column;
     position: relative;
-    height: 92vh;
+    height: 100%;
     margin: 0%;
 }
 
@@ -91,7 +91,7 @@ img {
     position: absolute;
     transform: translate(-50%);
     bottom: 0%;
-    left: 40%;
+    left: 50%;
     font-size: 2rem;
     color: rgb(248, 245, 221);
     font-family: 'Josefin Sans', sans-serif;
