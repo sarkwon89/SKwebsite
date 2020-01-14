@@ -149,8 +149,9 @@ p {
     margin-bottom: 10px;
 }
 
-.carousel{
-    border: solid 1px rgba(51, 45, 45, 0.623);
+.clpbox{
+    padding: 10px;
+    background-color: rgba(51, 45, 45, 0.808);
 }
 
 
