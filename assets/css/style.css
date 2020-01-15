@@ -112,15 +112,15 @@ img {
         1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 
-.aboutmecontainer{
+.aboutmecontainer {
     display: flex;
 }
 
-.aboutmeheader{
+.aboutmeheader {
     animation-duration: 2s;
 }
 
-.aboutmeheader2{
+.aboutmeheader2 {
     animation-duration: 2s;
 }
 
@@ -149,12 +149,51 @@ p {
     margin-bottom: 10px;
 }
 
-.clpbox{
+.clpbox {
     padding: 10px;
     background-color: rgba(51, 45, 45, 0.808);
 }
 
-i{
+i {
     margin-right: 10px;
+}
+
+@media only screen and (min-width: 500px) {
+    .welcome{
+        height:100vh;
+    }
+    #enter{left: 42% !important;}
+}
+
+@media only screen and (min-width: 680px) {
+    #enter{left: 43% !important;}
+}
+
+
+@media only screen and (min-width: 750px) {
+    #enter{left: 42% !important;
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    #enter{left: 43% !important;
+        font-size: 3rem;
+    }
+
+    .welcometxt{
+        font-size: 6rem;
+
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #enter{left: 45% !important;
+        font-size: 3rem;
+    }
+    
+    .welcometxt{
+        font-size: 7rem;
+    }
 }
 
