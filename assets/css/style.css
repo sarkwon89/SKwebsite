@@ -31,10 +31,6 @@ nav {
     padding-bottom: 5% !important; */
 }
 
-.row{
-   margin-bottom: 0% !important; 
-}
-
 .m{
     display: flex;
 }
@@ -131,6 +127,7 @@ iframe{
 .aboutmeheader2 {
     animation-duration: 2s;
 }
+
 
 h2 {
     margin-top: 20%;
