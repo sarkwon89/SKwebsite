@@ -16,7 +16,7 @@ nav {
     z-index: 2;
 }
 
-.sidenav {
+.sidenav.nav-wrapper {
     background-color: rgb(248, 245, 221) !important;
     height: 25vh;
     z-index: 2;
