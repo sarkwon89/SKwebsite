@@ -5,10 +5,7 @@ $(document).ready(function () {
 });
 
 
-// $('.carousel.carousel-slider').carousel({
-//     fullWidth: true,
-//     indicators: true
-// });
+
 
 function animted(element, animation){
     $(element).addClass('animated ' + animation)
