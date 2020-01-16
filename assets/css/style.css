@@ -84,6 +84,11 @@ nav {
 img {
     width: 1915px;
     height: 940px;
+    z-index: -1;
+}
+
+iframe{
+    z-index: -1;
 }
 
 #enter {
