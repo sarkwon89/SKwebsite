@@ -13,11 +13,13 @@ nav {
     color: rgb(248, 245, 221) !important;
     /* how to make the navbar sticky */
     position: fixed;
+    z-index: 2;
 }
 
 .sidenav {
     background-color: rgb(248, 245, 221) !important;
     height: 25vh;
+    z-index: 2;
 }
 
 .container {
@@ -48,6 +50,7 @@ nav {
     position: relative;
     height: 90vh;
     margin: 0%;
+    z-index: 4;
 }
 
 .welcometxt {
