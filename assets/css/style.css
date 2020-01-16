@@ -21,12 +21,12 @@ nav {
 }
 
 .container {
-    /* border: solid yellow; */
+    border: solid #332D2D;
     width: 100%;
     margin-top: 5px;
 }
 
-.s12 {
+.col {
     /* margin: 5px;
     padding-bottom: 5% !important; */
 }
@@ -185,7 +185,7 @@ i {
     }
 
     p{
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 
@@ -196,8 +196,12 @@ i {
         font-size: 3rem;
     }
     .aboutMeImage{
-        height:80%;
-        width: 80%;
+        height:60%;
+        width: 60%;
+    }
+    #search{
+        width: 70%;
+        height: auto;
     }
 
 }
@@ -207,9 +211,8 @@ i {
         margin-top: 10%;
     }
     p{
-        font-size: 22px;
+        font-size: 25px;
     }
-
 }
 
 @media only screen and (min-width: 1000px) {
