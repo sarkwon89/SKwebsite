@@ -27,13 +27,16 @@ nav {
 }
 
 .s12 {
-    border: solid #332D2D;
-    margin: 5px;
-    padding-bottom: 5% !important;
+    /* margin: 5px;
+    padding-bottom: 5% !important; */
 }
 
-.row {
-    margin: 0%;
+.row{
+    
+}
+
+.m{
+    display: flex;
 }
 
 .welcome {
@@ -159,41 +162,92 @@ i {
 }
 
 @media only screen and (min-width: 500px) {
-    .welcome{
-        height:100vh;
+    .welcome {
+        height: 100vh;
     }
-    #enter{left: 42% !important;}
+
+    #enter {
+        left: 42% !important;
+    }
+
+    h2 {
+        margin-top: 15%;
+    }
 }
 
 @media only screen and (min-width: 680px) {
-    #enter{left: 43% !important;}
+    #enter {
+        left: 43% !important;
+    }
+
+    h2 {
+        margin-top: 12%;
+    }
+
+    p{
+        font-size: 18px;
+    }
 }
 
 
 @media only screen and (min-width: 750px) {
-    #enter{left: 42% !important;
+    #enter {
+        left: 42% !important;
         font-size: 3rem;
     }
+    .aboutMeImage{
+        height:80%;
+        width: 80%;
+    }
+
+}
+
+@media only screen and (min-width: 900px) {
+    h2 {
+        margin-top: 10%;
+    }
+    p{
+        font-size: 22px;
+    }
+
 }
 
 @media only screen and (min-width: 1000px) {
-    #enter{left: 43% !important;
+    #enter {
+        left: 43% !important;
         font-size: 3rem;
     }
 
-    .welcometxt{
+    .welcometxt {
         font-size: 6rem;
 
+    }
+
+    h2 {
+        margin-top: 8%;
     }
 }
 
 @media only screen and (min-width: 1200px) {
-    #enter{left: 45% !important;
+    #enter {
+        left: 45% !important;
         font-size: 3rem;
     }
-    
-    .welcometxt{
-        font-size: 7rem;
+
+    .welcometxt {
+        font-size: 8rem;
+    }
+    h2 {
+        margin-top: 6%;
     }
 }
 
+@media only screen and (min-width: 1500px) {
+    #enter {
+        font-size: 4rem;
+    }
+
+    .welcometxt {
+        font-size: 10rem;
+    }
+}
