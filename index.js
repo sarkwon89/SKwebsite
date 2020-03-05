@@ -7,12 +7,33 @@ $(document).ready(function () {
 
 
 
-function animted(element, animation){
+function animated(element, animation){
     $(element).addClass('animated ' + animation)
 }
 
 $("#enter").click(function(){
-    animted(".aboutmeheader", "fadeInLeft");
-    animted(".aboutmeheader2", "fadeInRight");
-    animted(".nav-wrapper", "fadeInDown");
+    animated(".aboutmeheader", "fadeInLeft");
+    animated(".aboutmeheader2", "fadeInRight");
+    animated(".nav-wrapper", "fadeInDown");
+})
+
+$("#aboutme").click(function(){
+    animated(".aboutmeheader", "fadeInLeft");
+    animated(".aboutmeheader2", "fadeInRight");
+    animated(".nav-wrapper", "fadeInDown");
+})
+
+$("#product").click(function(){
+    animated(".productheader","fadeInLeft");
+    animated(".productinfo", "fadeInRight")
+})
+
+$("#project").click(function(){
+    animated(".projectheader","fadeInLeft");
+    animated(".projectinfo", "fadeInRight")
+})
+
+$("#commsec").click(function(){
+    animated(".commercialheader","fadeInLeft");
+    animated(".commercialinfo", "fadeInRight")
 })

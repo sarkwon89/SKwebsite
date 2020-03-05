@@ -20,19 +20,19 @@
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul class="left hide-on-med-and-down">
                 <!-- <li><a href="#">Home</a></li> -->
-                <li><a href="#aboutmesection">ABOUT ME</a></li>
-                <li><a href="#productsection">PRODUCTS</a></li>
-                <li><a href="#projectsection">PROJECTS</a></li>
-                <li><a href="#commericalsection">COMMERCIALS</a></li>
+                <li><a href="#aboutmesection" id="aboutme">ABOUT ME</a></li>
+                <li><a href="#productsection" id="product">PRODUCTS</a></li>
+                <li><a href="#projectsection" id="project">PROJECTS</a></li>
+                <li><a href="#commericalsection" id="commsec">COMMERCIALS</a></li>
             </ul>
         </div>
     </nav>
 
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="#aboutmesection">ABOUT ME</a></li>
-        <li><a href="#productsection">PRODUCTS</a></li>
-        <li><a href="#projectsection">PROJECTS</a></li>
-        <li><a href="#commericalsection">COMMERCIALS</a></li>
+        <li><a href="#aboutmesection" id="aboutme">ABOUT ME</a></li>
+        <li><a href="#productsection" id="product">PRODUCTS</a></li>
+        <li><a href="#projectsection" id="project">PROJECTS</a></li>
+        <li><a href="#commericalsection" id="commsec">COMMERCIALS</a></li>
     </ul>
 
     <div class="row welcome">
@@ -107,341 +107,356 @@
         </div>
         <hr>
         <div id="productsection" class="row products">
-            <div class="col s12">
+            <div class="col s12 productheader">
                 <h2>PRODUCTS</h2>
                 <p>Here are some of the non-confidential products I have created. </p>
             </div>
-            <div class="row">
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>Raven</h4>
-                    <p>This was the first product I launched as a product manager in 2017. Raven is an inline
-                        auto-play
-                        video unit on the main home, name and title pages on IMDb app plus desktop. Raven was the
-                        first
-                        to
-                        market inline auto-play video ad on the IMDb platform</p>
-                    <video class="responsive-video" controls>
-                        <source src="../SKwebsite/assets/video/Raven iOS hp.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>Inline Banner Ads</h4>
-                    <p>IMDb served pop up display ads until 2017. As the product manager, moved pop up ads inline on
-                        the
-                        most trafficked page types on IMDb mobile app in 2018 with plans to move programmatic ads
-                        inline
-                        by
-                        2019. Recently checked the IMDb app and saw that all the display ads are now inline on other
-                        page
-                        types!</p>
-                    <video class="responsive-video" controls>
-                        <source src="../SKwebsite/assets/video/inline_banner_ad_hp.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12">
-                    <hr>
-                    <h4>Custom Landing Page</h4>
-                    <p>Created and launched Pilot, which is a program that drives incremental short-term and long-term
-                        revenue by experimenting and prototyping in a fast-paced environment. One of the experiments we
-                        launched was the Custom Landing Page ad product.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12 m6">
-                    <h6>Star Wars Custom Landing Page</h6>
-                    <a href="https://m.imdb.com/lego/star-wars" target="_blank">
-                        <h8>VIEW <i class="fas fa-external-link-square-alt"></i></h8>
-                    </a>
-                    <div class="clpbox">
-                        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6408358818178301952"
-                            height="350px" width="100%" frameborder="0" allowfullscreen="" title="Embedded post">
-                        </iframe>
+            <div class="productinfo">
+                <div class="row">
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>Raven</h4>
+                        <p>This was the first product I launched as a product manager in 2017. Raven is an inline
+                            auto-play
+                            video unit on the main home, name and title pages on IMDb app plus desktop. Raven was the
+                            first
+                            to
+                            market inline auto-play video ad on the IMDb platform</p>
+                        <video class="responsive-video" controls>
+                            <source src="../SKwebsite/assets/video/Raven iOS hp.mp4" type="video/mp4">
+                        </video>
                     </div>
-                    <br>
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>Inline Banner Ads</h4>
+                        <p>IMDb served pop up display ads until 2017. As the product manager, moved pop up ads inline on
+                            the
+                            most trafficked page types on IMDb mobile app in 2018 with plans to move programmatic ads
+                            inline
+                            by
+                            2019. Recently checked the IMDb app and saw that all the display ads are now inline on other
+                            page
+                            types!</p>
+                        <video class="responsive-video" controls>
+                            <source src="../SKwebsite/assets/video/inline_banner_ad_hp.mp4" type="video/mp4">
+                        </video>
+                    </div>
                 </div>
-                <div class="col s12 m6">
-                    <h6>Jurassic World Custom Landing Page</h6>
-                    <a href="https://m.imdb.com/lego/jurassic-world/" target="_blank">
-                        <h8>VIEW <i class="fas fa-external-link-square-alt"></i></h8>
-                    </a>
-                    <div class="clpbox">
-                        <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6418509794537279488"
-                            height="350px" width="100%" frameborder="0" allowfullscreen="" title="Embedded post">
-                        </iframe>
+                <div class="row">
+                    <div class="col s12">
+                        <hr>
+                        <h4>Custom Landing Page</h4>
+                        <p>Created and launched Pilot, which is a program that drives incremental short-term and
+                            long-term
+                            revenue by experimenting and prototyping in a fast-paced environment. One of the experiments
+                            we
+                            launched was the Custom Landing Page ad product.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m6">
+                        <h6>Star Wars Custom Landing Page</h6>
+                        <a href="https://m.imdb.com/lego/star-wars" target="_blank">
+                            <h8>VIEW <i class="fas fa-external-link-square-alt"></i></h8>
+                        </a>
+                        <div class="clpbox">
+                            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6408358818178301952"
+                                height="350px" width="100%" frameborder="0" allowfullscreen="" title="Embedded post">
+                            </iframe>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col s12 m6">
+                        <h6>Jurassic World Custom Landing Page</h6>
+                        <a href="https://m.imdb.com/lego/jurassic-world/" target="_blank">
+                            <h8>VIEW <i class="fas fa-external-link-square-alt"></i></h8>
+                        </a>
+                        <div class="clpbox">
+                            <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:6418509794537279488"
+                                height="350px" width="100%" frameborder="0" allowfullscreen="" title="Embedded post">
+                            </iframe>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <hr>
         <div id="projectsection" class="row projects">
-            <div class="col s12">
+            <div class="col s12 projectheader">
                 <h2>PROJECTS</h2>
                 <p>Here are all of the projects and assignments I completed at my time at UW coding bootcamp.
                     Each
                     assignment displays the coding skills I have gained.
                 </p>
             </div>
-            <div class="row">
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>My First Website</h4>
-                    <p>My very first website built during UW Coding Bootcamp. This site
-                        was created using HTML and CSS without any CSS frameworks like bootstrap.
-                    </p>
-                    <a href="https://github.com/sarkwon89/studentportfolio" target="_blank">
-                        <i class="fab fa-github-alt fa-2x"></i>
-                    </a>
-                    <a href="https://sarkwon89.github.io/studentportfolio/" target="_blank">
-                        <i class="fas fa-external-link-square-alt fa-2x"></i>
-                    </a>
-                    <a href="https://sarkwon89.github.io/studentportfolio/" target="_blank">
-                        <img class="responsive-img" src="assets/images/firstwebsite.jpg" alt="image">
-                    </a>
+            <div class="projectinfo">
+                <div class="row">
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>My First Website</h4>
+                        <p>My very first website built during UW Coding Bootcamp. This site
+                            was created using HTML and CSS without any CSS frameworks like bootstrap.
+                        </p>
+                        <a href="https://github.com/sarkwon89/studentportfolio" target="_blank">
+                            <i class="fab fa-github-alt fa-2x"></i>
+                        </a>
+                        <a href="https://sarkwon89.github.io/studentportfolio/" target="_blank">
+                            <i class="fas fa-external-link-square-alt fa-2x"></i>
+                        </a>
+                        <a href="https://sarkwon89.github.io/studentportfolio/" target="_blank">
+                            <img class="responsive-img" src="assets/images/firstwebsite.jpg" alt="image">
+                        </a>
+                    </div>
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>Responisive Portfolio</h4>
+                        <p>Built a responsive portfolio that will render on a variety of devices and window or screen
+                            sizes.
+                        </p>
+                        <a href="https://github.com/sarkwon89/sarahkwonwebsite" target="_blank">
+                            <i class="fab fa-github-alt fa-2x"></i>
+                        </a>
+                        <a href="https://sarkwon89.github.io/sarahkwonwebsite/home" target="_blank">
+                            <i class="fas fa-external-link-square-alt fa-2x"></i>
+                        </a>
+                        <a href="https://sarkwon89.github.io/sarahkwonwebsite/home" target="_blank">
+                            <img class="responsive-img" src="assets/images/responsiveport.jpg" alt="image">
+                        </a>
+                    </div>
                 </div>
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>Responisive Portfolio</h4>
-                    <p>Built a responsive portfolio that will render on a variety of devices and window or screen sizes.
-                    </p>
-                    <a href="https://github.com/sarkwon89/sarahkwonwebsite" target="_blank">
-                        <i class="fab fa-github-alt fa-2x"></i>
-                    </a>
-                    <a href="https://sarkwon89.github.io/sarahkwonwebsite/home" target="_blank">
-                        <i class="fas fa-external-link-square-alt fa-2x"></i>
-                    </a>
-                    <a href="https://sarkwon89.github.io/sarahkwonwebsite/home" target="_blank">
-                        <img class="responsive-img" src="assets/images/responsiveport.jpg" alt="image">
-                    </a>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>Password Generator</h4>
-                    <p>Created an application that generates a random password based on
-                        user-selected criteria. This app runs in the browser and feature dynamically updated
-                        HTML and CSS powered by the JavaScript code.</p>
-                    <a href="https://github.com/sarkwon89/PasswordGeneratorSK" target="_blank">
-                        <i class="fab fa-github-alt fa-2x"></i>
-                    </a>
-                    <a href="https://sarkwon89.github.io/PasswordGeneratorSK/passwordgenerator" target="_blank">
-                        <i class="fas fa-external-link-square-alt fa-2x"></i>
-                    </a>
-                    <a href="https://sarkwon89.github.io/PasswordGeneratorSK/passwordgenerator" target="_blank">
-                        <img class="responsive-img" src="assets/images/passwordgenerator.png" alt="">
-                    </a>
+                <div class="row">
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>Password Generator</h4>
+                        <p>Created an application that generates a random password based on
+                            user-selected criteria. This app runs in the browser and feature dynamically updated
+                            HTML and CSS powered by the JavaScript code.</p>
+                        <a href="https://github.com/sarkwon89/PasswordGeneratorSK" target="_blank">
+                            <i class="fab fa-github-alt fa-2x"></i>
+                        </a>
+                        <a href="https://sarkwon89.github.io/PasswordGeneratorSK/passwordgenerator" target="_blank">
+                            <i class="fas fa-external-link-square-alt fa-2x"></i>
+                        </a>
+                        <a href="https://sarkwon89.github.io/PasswordGeneratorSK/passwordgenerator" target="_blank">
+                            <img class="responsive-img" src="assets/images/passwordgenerator.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>Code Quiz</h4>
+                        <p>From scratch, built a timer-based quiz application that stores scores
+                            client-side.</p>
+                        <a href="https://github.com/sarkwon89/SKcodequiz" target="_blank">
+                            <i class="fab fa-github-alt fa-2x"></i>
+                        </a>
+                        <a href="https://sarkwon89.github.io/SKcodequiz/" target="_blank">
+                            <i class="fas fa-external-link-square-alt fa-2x"></i>
+                        </a>
+                        <a href="https://sarkwon89.github.io/SKcodequiz/" target="_blank">
+                            <img class="responsive-img" src="assets/images/codequiz.png" alt="image">
+                        </a>
+                    </div>
                 </div>
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>Code Quiz</h4>
-                    <p>From scratch, built a timer-based quiz application that stores scores
-                        client-side.</p>
-                    <a href="https://github.com/sarkwon89/SKcodequiz" target="_blank">
-                        <i class="fab fa-github-alt fa-2x"></i>
-                    </a>
-                    <a href="https://sarkwon89.github.io/SKcodequiz/" target="_blank">
-                        <i class="fas fa-external-link-square-alt fa-2x"></i>
-                    </a>
-                    <a href="https://sarkwon89.github.io/SKcodequiz/" target="_blank">
-                        <img class="responsive-img" src="assets/images/codequiz.png" alt="image">
-                    </a>
+                <div class="row">
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>Day Planner</h4>
+                        <p>Created a simple calendar application that allows the user to save events for each hour of
+                            the day using the locale storage on the browser.
+                            This app runs in the browser and features dynamically updated HTML and CSS powered by
+                            jQuery.</p>
+                        <a href="https://github.com/sarkwon89/dayplannerSK" target="_blank">
+                            <i class="fab fa-github-alt fa-2x"></i>
+                        </a>
+                        <a href="https://sarkwon89.github.io/dayplannerSK/dayplannerSK" target="_blank">
+                            <i class="fas fa-external-link-square-alt fa-2x"></i>
+                        </a>
+                        <a href="https://sarkwon89.github.io/dayplannerSK/dayplannerSK" target="_blank">
+                            <img class="responsive-img" src="assets/images/dayplanner.jpg" alt="image">
+                        </a>
+                    </div>
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>Weather Channel</h4>
+                        <p>Built a weather dashboard application with search functionality to find current weather
+                            conditions
+                            and the future weather outlook for multiple cities.</p>
+                        <a href="https://github.com/sarkwon89/weatherchannelSK" target="_blank">
+                            <i class="fab fa-github-alt fa-2x"></i>
+                        </a>
+                        <a href="https://sarkwon89.github.io/weatherchannelSK/" target="_blank">
+                            <i class="fas fa-external-link-square-alt fa-2x"></i>
+                        </a>
+                        <a href="https://sarkwon89.github.io/weatherchannelSK/" target="_blank">
+                            <img class="responsive-img" src="assets/images/weatherdash.jpg" alt="image">
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>Day Planner</h4>
-                    <p>Created a simple calendar application that allows the user to save events for each hour of
-                        the day using the locale storage on the browser.
-                        This app runs in the browser and features dynamically updated HTML and CSS powered by
-                        jQuery.</p>
-                    <a href="https://github.com/sarkwon89/dayplannerSK" target="_blank">
-                        <i class="fab fa-github-alt fa-2x"></i>
-                    </a>
-                    <a href="https://sarkwon89.github.io/dayplannerSK/dayplannerSK" target="_blank">
-                        <i class="fas fa-external-link-square-alt fa-2x"></i>
-                    </a>
-                    <a href="https://sarkwon89.github.io/dayplannerSK/dayplannerSK" target="_blank">
-                        <img class="responsive-img" src="assets/images/dayplanner.jpg" alt="image">
-                    </a>
-                </div>
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>Weather Channel</h4>
-                    <p>Built a weather dashboard application with search functionality to find current weather
-                        conditions
-                        and the future weather outlook for multiple cities.</p>
-                    <a href="https://github.com/sarkwon89/weatherchannelSK" target="_blank">
-                        <i class="fab fa-github-alt fa-2x"></i>
-                    </a>
-                    <a href="https://sarkwon89.github.io/weatherchannelSK/" target="_blank">
-                        <i class="fas fa-external-link-square-alt fa-2x"></i>
-                    </a>
-                    <a href="https://sarkwon89.github.io/weatherchannelSK/" target="_blank">
-                        <img class="responsive-img" src="assets/images/weatherdash.jpg" alt="image">
-                    </a>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>Tender</h4>
-                    <p>Built a web application that will generate cocktail recommendations for the user using two
-                        server-side APIs, a third party CSS and Javascript
-                        framework. This was a group project with 3 people and had 3 days to deliver the application.</p>
-                    <a href="https://github.com/chrisp-dev/drinkanator" target="_blank">
-                        <i class="fab fa-github-alt fa-2x"></i>
-                    </a>
-                    <a href="https://chrisp-dev.github.io/drinkanator/" target="_blank">
-                        <i class="fas fa-external-link-square-alt fa-2x"></i>
-                    </a>
-                    <a href="https://chrisp-dev.github.io/drinkanator/" target="_blank">
-                        <img class="responsive-img" src="assets/images/first project.jpg" alt="image">
-                    </a>
-                </div>
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>Developer Profile Generator</h4>
-                    <p>Created a command-line application that dynamically generates a PDF profile from a GitHub
-                        username.
-                    </p>
-                    <a href="https://github.com/sarkwon89/DPG" target="_blank">
-                        <i class="fab fa-github-alt fa-2x"></i>
-                        <img class="responsive-img" src="assets/images/dpg.jpg" alt="image">
-                    </a>
+                <div class="row">
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>Tender</h4>
+                        <p>Built a web application that will generate cocktail recommendations for the user using two
+                            server-side APIs, a third party CSS and Javascript
+                            framework. This was a group project with 3 people and had 3 days to deliver the application.
+                        </p>
+                        <a href="https://github.com/chrisp-dev/drinkanator" target="_blank">
+                            <i class="fab fa-github-alt fa-2x"></i>
+                        </a>
+                        <a href="https://chrisp-dev.github.io/drinkanator/" target="_blank">
+                            <i class="fas fa-external-link-square-alt fa-2x"></i>
+                        </a>
+                        <a href="https://chrisp-dev.github.io/drinkanator/" target="_blank">
+                            <img class="responsive-img" src="assets/images/first project.jpg" alt="image">
+                        </a>
+                    </div>
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>Developer Profile Generator</h4>
+                        <p>Created a command-line application that dynamically generates a PDF profile from a GitHub
+                            username.
+                        </p>
+                        <a href="https://github.com/sarkwon89/DPG" target="_blank">
+                            <i class="fab fa-github-alt fa-2x"></i>
+                            <img class="responsive-img" src="assets/images/dpg.jpg" alt="image">
+                        </a>
 
+                    </div>
                 </div>
-            </div>
 
 
-            <div class="row">
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>Team Profile Generator</h4>
-                    <p>Built a software engineering team generator command line application. Unit
-                        tests created for this application. When the user has completed building the team, the
-                        application will create an HTML file that displays a nicely formatted team roster based on the
-                        information provided by the user..</p>
-                    <a href="https://github.com/sarkwon89/TPG" target="_blank">
-                        <i class="fab fa-github-alt fa-2x"></i>
-                        <img class="responsive-img" src="assets/images/tpg.jpg" alt="image">
-                    </a>
+                <div class="row">
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>Team Profile Generator</h4>
+                        <p>Built a software engineering team generator command line application. Unit
+                            tests created for this application. When the user has completed building the team, the
+                            application will create an HTML file that displays a nicely formatted team roster based on
+                            the
+                            information provided by the user..</p>
+                        <a href="https://github.com/sarkwon89/TPG" target="_blank">
+                            <i class="fab fa-github-alt fa-2x"></i>
+                            <img class="responsive-img" src="assets/images/tpg.jpg" alt="image">
+                        </a>
 
+                    </div>
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>Notetaker</h4>
+                        <p>This is an application that can be used to write, save, and delete notes. This application
+                            uses
+                            an express backend and saves and retrieves note data from a JSON file.</p>
+                        <p>Customer </p>
+                        <a href="https://github.com/sarkwon89/SKnotetaker" target="_blank">
+                            <i class="fab fa-github-alt fa-2x"></i>
+                        </a>
+                        <a href="https://sknotetaker.herokuapp.com/" target="_blank">
+                            <i class="fas fa-external-link-square-alt fa-2x"></i>
+                        </a>
+                        <a href="https://sknotetaker.herokuapp.com/" target="_blank">
+                            <img class="responsive-img" src="assets/images/notetaker.jpg" alt="image">
+                        </a>
+                    </div>
                 </div>
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>Notetaker</h4>
-                    <p>This is an application that can be used to write, save, and delete notes. This application uses
-                        an express backend and saves and retrieves note data from a JSON file.</p>
-                    <p>Customer </p>
-                    <a href="https://github.com/sarkwon89/SKnotetaker" target="_blank">
-                        <i class="fab fa-github-alt fa-2x"></i>
-                    </a>
-                    <a href="https://sknotetaker.herokuapp.com/" target="_blank">
-                        <i class="fas fa-external-link-square-alt fa-2x"></i>
-                    </a>
-                    <a href="https://sknotetaker.herokuapp.com/" target="_blank">
-                        <img class="responsive-img" src="assets/images/notetaker.jpg" alt="image">
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>Employee Management System</h4>
-                    <p>Built an employee management system also known as a CMS. Developers are often tasked with
-                        creating
-                        interfaces that make it easy for non-developers to view and interact with information stored in
-                        databases.</p>
-                    <a href="https://github.com/sarkwon89/EMS" target="_blank">
-                        <i class="fab fa-github-alt fa-2x"></i>
-                        <img class="responsive-img" src="assets/images/ems.jpg" alt="">
-                    </a>
+                <div class="row">
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>Employee Management System</h4>
+                        <p>Built an employee management system also known as a CMS. Developers are often tasked with
+                            creating
+                            interfaces that make it easy for non-developers to view and interact with information stored
+                            in
+                            databases.</p>
+                        <a href="https://github.com/sarkwon89/EMS" target="_blank">
+                            <i class="fab fa-github-alt fa-2x"></i>
+                            <img class="responsive-img" src="assets/images/ems.jpg" alt="">
+                        </a>
 
-                </div>
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>Top 3 Recommendations</h4>
-                    <p>Built a web application that allows a user to view or share recommendations to help people
-                        discover new products and experiences. Built this application using materialize (css framework),
-                        cloudinary (server-side API), and MySQL with sequelize ORM. This was a group project with 4
-                        people and had 5 days to deliver the application.
-                    </p>
-                    <a href="https://github.com/sarkwon89/Top3recs" target="_blank">
-                        <i class="fab fa-github-alt fa-2x"></i>
-                    </a>
-                    <a href="https://top3recommendations.herokuapp.com/" target="_blank">
-                        <i class="fas fa-external-link-square-alt fa-2x"></i>
-                    </a>
-                    <a href="https://top3recommendations.herokuapp.com/" target="_blank">
-                        <img class="responsive-img" src="assets/images/Top3rec.PNG" alt="image">
-                    </a>
-                </div>
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>Employee Directory</h4>
-                    <p>To be filled
-                    </p>
-                    <a href="https://github.com/sarkwon89/employee_directory_sk" target="_blank">
-                        <i class="fab fa-github-alt fa-2x"></i>
-                    </a>
-                    <a href="https://skemployeedirectory.herokuapp.com/" target="_blank">
-                        <i class="fas fa-external-link-square-alt fa-2x"></i>
-                    </a>
-                    <a href="https://skemployeedirectory.herokuapp.com/" target="_blank">
-                        <img class="responsive-img" src="assets/images/employee_directory.PNG" alt="image">
-                    </a>
-                </div>
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>Fitness Tracker</h4>
-                    <p>To be filled
-                    </p>
-                    <a href="https://github.com/sarkwon89/workout_tracker" target="_blank">
-                        <i class="fab fa-github-alt fa-2x"></i>
-                    </a>
-                    <a href="https://workouttrackersk.herokuapp.com/" target="_blank">
-                        <i class="fas fa-external-link-square-alt fa-2x"></i>
-                    </a>
-                    <a href="https://workouttrackersk.herokuapp.com/" target="_blank">
-                        <img class="responsive-img" src="assets/images/fitnesstracker.png" alt="image">
-                    </a>
-                </div>
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>SEEFOOD Recipe Book</h4>
-                    <p>SEEFOOD is an interactive recipe book which uses a web application that will scan AR and QR codes
-                        to initialize a delightful and immersive experience for the customer. Customers will be able to
-                        see their ingredients in 3D form using AR to understand how the product looks in order to help
-                        them find and purchase.
-                    </p>
-                    <a href="https://github.com/sarkwon89/seefoodclient" target="_blank">
-                        Client-side: <i class="fab fa-github-alt fa-2x"></i>
-                    </a>
-                    <a href="https://github.com/rcavalero/seefood-api" target="_blank">
-                        Server-side: <i class="fab fa-github-alt fa-2x"></i>
-                    </a>
-                    <a href="/seefoodbook2/" download>
-                        Recipe Book<i class="fas fa-download fa-2x"></i>
-                    </a>
-                    <a href="https://seefood-app.herokuapp.com/" target="_blank">
-                        Web App: <i class="fas fa-external-link-square-alt fa-2x"></i>
-                    </a>
-                    <a href="https://seefood-app.herokuapp.com/" target="_blank">
-                        <img class="responsive-img" src="assets/images/seefoodhomepage.PNG" alt="image">
-                    </a>
+                    </div>
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>Top 3 Recommendations</h4>
+                        <p>Built a web application that allows a user to view or share recommendations to help people
+                            discover new products and experiences. Built this application using materialize (css
+                            framework),
+                            cloudinary (server-side API), and MySQL with sequelize ORM. This was a group project with 4
+                            people and had 5 days to deliver the application.
+                        </p>
+                        <a href="https://github.com/sarkwon89/Top3recs" target="_blank">
+                            <i class="fab fa-github-alt fa-2x"></i>
+                        </a>
+                        <a href="https://top3recommendations.herokuapp.com/" target="_blank">
+                            <i class="fas fa-external-link-square-alt fa-2x"></i>
+                        </a>
+                        <a href="https://top3recommendations.herokuapp.com/" target="_blank">
+                            <img class="responsive-img" src="assets/images/Top3rec.PNG" alt="image">
+                        </a>
+                    </div>
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>Employee Directory</h4>
+                        <p>To be filled
+                        </p>
+                        <a href="https://github.com/sarkwon89/employee_directory_sk" target="_blank">
+                            <i class="fab fa-github-alt fa-2x"></i>
+                        </a>
+                        <a href="https://skemployeedirectory.herokuapp.com/" target="_blank">
+                            <i class="fas fa-external-link-square-alt fa-2x"></i>
+                        </a>
+                        <a href="https://skemployeedirectory.herokuapp.com/" target="_blank">
+                            <img class="responsive-img" src="assets/images/employee_directory.PNG" alt="image">
+                        </a>
+                    </div>
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>Fitness Tracker</h4>
+                        <p>To be filled
+                        </p>
+                        <a href="https://github.com/sarkwon89/workout_tracker" target="_blank">
+                            <i class="fab fa-github-alt fa-2x"></i>
+                        </a>
+                        <a href="https://workouttrackersk.herokuapp.com/" target="_blank">
+                            <i class="fas fa-external-link-square-alt fa-2x"></i>
+                        </a>
+                        <a href="https://workouttrackersk.herokuapp.com/" target="_blank">
+                            <img class="responsive-img" src="assets/images/fitnesstracker.png" alt="image">
+                        </a>
+                    </div>
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>SEEFOOD Recipe Book</h4>
+                        <p>SEEFOOD is an interactive recipe book which uses a web application that will scan AR and QR
+                            codes
+                            to initialize a delightful and immersive experience for the customer. Customers will be able
+                            to
+                            see their ingredients in 3D form using AR to understand how the product looks in order to
+                            help
+                            them find and purchase.
+                        </p>
+                        <a href="https://github.com/sarkwon89/seefoodclient" target="_blank">
+                            Client-side: <i class="fab fa-github-alt fa-2x"></i>
+                        </a>
+                        <a href="https://github.com/rcavalero/seefood-api" target="_blank">
+                            Server-side: <i class="fab fa-github-alt fa-2x"></i>
+                        </a>
+                        <a href="/seefoodbook2/" download>
+                            Recipe Book<i class="fas fa-download fa-2x"></i>
+                        </a>
+                        <a href="https://seefood-app.herokuapp.com/" target="_blank">
+                            Web App: <i class="fas fa-external-link-square-alt fa-2x"></i>
+                        </a>
+                        <a href="https://seefood-app.herokuapp.com/" target="_blank">
+                            <img class="responsive-img" src="assets/images/seefoodhomepage.PNG" alt="image">
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div id="commericalsection" class="row commercial">
-            <div class="col s12">
+            <div class="col s12 commercialheader">
                 <hr>
                 <h2>COMMERCIAL</h2>
                 <p>Outside of my career, I've had the privilege to work with The Distillery and Dell EMC the
@@ -450,55 +465,57 @@
                     it takes
                     to create video content in a fast pace environmnet.</p>
             </div>
-            <div class="row">
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>DELL EMC Unity XT</h4>
-                    <p>Played a round of charades to uncover DELL EMC's awesome product
-                        called Unity XT.</p>
-                    <div id="search">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/B5IWyUgUDI0"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+            <div class="commercialinfo">
+                <div class="row">
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>DELL EMC Unity XT</h4>
+                        <p>Played a round of charades to uncover DELL EMC's awesome product
+                            called Unity XT.</p>
+                        <div id="search">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/B5IWyUgUDI0"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>DELL EMC PowerOne</h4>
+                        <p>Thanks to Dell EMC Power One, you can have time for more enlightened
+                            things like finding your chi. &#129496 </p>
+                        <div id="search">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/jvdRI9oSFF8"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>DELL EMC PowerOne</h4>
-                    <p>Thanks to Dell EMC Power One, you can have time for more enlightened
-                        things like finding your chi. &#129496 </p>
-                    <div id="search">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/jvdRI9oSFF8"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                <div class="row">
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>DELL EMC Cloud</h4>
+                        <p>Dell EMC Cloud Marketplace – Now Open
+                        </p>
+                        <div id="search">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XCaFh6ezx8I?start=12"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>DELL EMC Cloud</h4>
-                    <p>Dell EMC Cloud Marketplace – Now Open
-                    </p>
-                    <div id="search">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/XCaFh6ezx8I?start=12"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                </div>
-                <div class="col s12 m6">
-                    <hr>
-                    <h4>Dell EMC IDPA</h4>
-                    <p>Complete backup, replication, recovery, deduplication, instant access and restore — all in a
-                        single appliance.</p>
-                    <div id="search">
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JMKAH9URQUc?start=14"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
+                    <div class="col s12 m6">
+                        <hr>
+                        <h4>Dell EMC IDPA</h4>
+                        <p>Complete backup, replication, recovery, deduplication, instant access and restore — all in a
+                            single appliance.</p>
+                        <div id="search">
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JMKAH9URQUc?start=14"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
